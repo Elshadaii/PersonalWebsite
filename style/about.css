@@ -1,0 +1,21 @@
+    .container {
+        margin-top: 250px;
+    }
+    
+    .about-me-header {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .about-me-text {
+        font-size: 16px;
+        font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .about-me-text .a {
+        font-size: 30px
+    }
+    
+    ;

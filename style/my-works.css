@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.col {
+    padding: 120px 20px 20px 20px;
+}
+
+.image {
+    margin: 5px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgb(0, 0, 0, 0.5);
+    }
+    .navbar-toggler {
+        padding: 3px 5px;
+        font-size: 20px;
+        line-height: rgb(119, 67, 32);
+        background: rgb(22, 19, 19);
+    }
+}

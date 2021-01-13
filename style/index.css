@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fix {
+    clear: both;
+    overflow: hidden;
+}
+
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.video-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#video-bg {
+    /*for the css I'm going to add position fix and set the z-index to minus one this wil keep 
+    videos element at the back the position */
+    position: fixed;
+    z-index: -1;
+}
+
+
+/* when the screen is too wide we need to keep the width to 100% and scale the height we can achive
+this is by usin min aspect ratio to 16 to 9 */
+
+@media (min-aspect-ratio: 16/9) {
+    #video-bg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* we will do vise versa when the screen ratio is below it 16 to 9*/
+
+@media (max-aspect-ratio: 16/9) {
+    #video-bg {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+/* when the screen is too wide we need to keep the width to 100% and scale the height we can achive
+this is by usin min aspect ratio to 16 to 9 */
+
+@media (min-aspect-ratio: 16/9) {
+    #video-bg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* we will do vise versa when the screen ratio is below it 16 to 9*/
+
+@media (max-aspect-ratio: 16/9) {
+    #video-bg {
+        width: auto;
+        height: 100%;
+    }
+}
