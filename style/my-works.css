@@ -26,3 +26,7 @@ body {
         background: rgb(22, 19, 19);
     }
 }
+
+.nav-item a i:hover {
+    color: gray !important;
+}
