@@ -18,4 +18,6 @@
         font-size: 30px
     }
     
-    ;
+    .nav-item a i:hover {
+        color: gray !important;
+    }

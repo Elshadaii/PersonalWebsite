@@ -51,3 +51,7 @@
     text-transform: capitalize;
     font-family: 'Oswald', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.nav-item a i:hover {
+    color: gray !important;
+}

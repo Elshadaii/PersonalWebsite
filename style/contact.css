@@ -59,3 +59,7 @@
         height: 45px;
         text-transform: uppercase;
     }
+    
+    .nav-item a i:hover {
+        color: gray !important;
+    }

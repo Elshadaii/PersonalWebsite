@@ -89,3 +89,7 @@ this is by usin min aspect ratio to 16 to 9 */
         height: 100%;
     }
 }
+
+.nav-item a i:hover {
+    color: gray !important;
+}
